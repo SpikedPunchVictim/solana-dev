@@ -8,6 +8,7 @@ Prerequisites
    * [Install NodeJS & NPM](https://nodejs.org/en/download/package-manager/)
 
 References:
+   * [Anchor Docs](https://github.com/project-serum/anchor)
    * [Development Walkthrough](https://dev.to/dabit3/the-complete-guide-to-full-stack-solana-development-with-react-anchor-rust-and-phantom-3291)
 
 
