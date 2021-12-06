@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "docker build -f Dockerfile.solana --tag solana .",
+    "clean": "docker rm solana",
     "dev": "docker run -it --name solana -p 8899:8899 -p 8900:8900 -v $(pwd)/app:/app solana bash",
     "shell": "docker exec -it -w /app solana bash",
     "stop": "docker stop solana",

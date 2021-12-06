@@ -9,8 +9,8 @@ RUN apt update -qq && \
  apt upgrade -qq && \
  apt install -qq && \
  apt install curl -y && \
- apt install rustc -y && \
- apt install gcc g++ make -y
+ apt install gcc g++ make -y && \
+ curl https://sh.rustup.rs -sSf | sh -s -- -y
 
 RUN curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh && \
    bash nodesource_setup.sh && \
