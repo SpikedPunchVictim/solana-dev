@@ -1,3 +1,5 @@
 node_modules/
 .DS_Store
 .devconfig/
+app/nft/target/
+app/test-ledger/

@@ -1,5 +1,5 @@
 [programs.localnet]
-nft = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+nft = "H2EyigeZP5uwVLf83PevyJ1FMUmXsx64N46qHs3S41Eh"
 
 [registry]
 url = "https://anchor.projectserum.com"
@@ -9,4 +9,4 @@ cluster = "localnet"
 wallet = "/root/.config/solana/id.json"
 
 [scripts]
-test = "mocha -t 1000000 tests/"
+test = "mocha -t 1000000 /app/nft/tests"

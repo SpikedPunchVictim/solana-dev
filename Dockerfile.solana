@@ -24,7 +24,8 @@ RUN sh -c "$(curl -sSfL https://release.solana.com/v1.8.6/install)"
 # RUN export PATH="/root/.local/share/solana/install/active_release/bin:$PATH"
 
 # Anchor
-RUN npm i -g @project-serum/anchor-cli
+RUN npm install -g @project-serum/anchor-cli
+RUN npm install mocha -g
 
 # yarn
 RUN npm install yarn -g

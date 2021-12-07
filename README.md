@@ -8,7 +8,8 @@ Prerequisites
    * [Install NodeJS & NPM](https://nodejs.org/en/download/package-manager/)
 
 References:
-   * [Anchor Docs](https://github.com/project-serum/anchor)
+   * [Anchor Repo](https://github.com/project-serum/anchor)
+   * [Anchor Docs](https://docs.rs/anchor-lang/latest/anchor_lang/index.html)
    * [Development Walkthrough](https://dev.to/dabit3/the-complete-guide-to-full-stack-solana-development-with-react-anchor-rust-and-phantom-3291)
 
 
@@ -35,3 +36,15 @@ solana config set --url localhost
 # Runa  local Solana node
 solana-test-validator
 ```
+
+**Building**
+* From inside the `/app/nft/` directory, run `anchor build`. This will take some time.
+
+
+# Trouble shooting
+
+**Error: AccountNotFound: pubkey=XXXXXX**
+
+Make sure you're on the correct network (localhost)
+
+> `solana config set --url localhost`
